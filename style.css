@@ -1,0 +1,528 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Navbar Start */
+.main .navbar-brand{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main .navbar-brand:hover{
+    color: red;
+}
+.main .navtext{
+    padding: 0px 150px;
+}
+.main .navtext li a{
+    color: #0f0f6c;
+}
+.main .navtext li a:hover{
+ color: red;
+}
+.main .button{
+    border-radius: 20px;
+}
+.main .button:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+/* Navbar End */
+
+
+/* Home Start */
+.home{
+    background-image: url(images/body1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.home .text{
+    color: white;
+    text-align: center;
+}
+.home h1{
+    font-size: 50px;
+}
+.home p{
+    font-size: 20px;
+}
+.home .input{
+    display: inline-block;
+}
+.home input{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.home .btn-body{
+    padding: 12px;
+    width: 25%;
+    border-radius: 30px;
+}
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0f0f6c;
+    font-weight: bold;
+}
+.icons img{
+    width: 100px;
+    margin: 20px 30px;
+    opacity: 0.4;
+}
+.icons img:hover{
+    opacity: 1;
+    transition: 1s;
+}
+/* Home End */
+
+/* About Start */
+
+.about .row .text{
+    text-align: center;
+}
+.about .row .text .cart{
+    color: rgb(0, 161, 214);
+    font-size: 50px;
+}
+.about .row .text .heart{
+    color: rgb(224, 40, 40);
+    font-size: 50px;
+}
+.about .row .text .anchor{
+    color: rgb(10, 126, 10);
+    font-size: 50px;
+}
+.about .row .text:hover{
+    transform: translateY(-25px);
+    transition: 2s;
+}
+
+/* r-2 */
+.about .r-2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about .r-2 h1{
+    color: #0f0f6c;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .r-2 p{
+    color: gray;
+}
+.about .r-2 span{
+    padding: 5px;
+    color: rgb(224, 40, 40);
+}
+.about .r-2 .about-btn{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* r-3 */
+.about .r-3 .child-row{
+    width: 250%;
+}
+.about .r-3 .child-row .child-text h5{
+    color: #0f0f6c;
+    display: inline-block;
+}
+.about .r-3 .child-row .child-text p{
+    color: gray;
+    display: inline-block;
+}
+.about .r-3 .child-row .child-text .arrow{
+    color: rgb(35, 143, 185);
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px;
+}
+.about .r-3 .child-row .child-text .network{
+    color: rgb(225 54 54);
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px;
+}
+.about .r-3 .child-row .child-text .rocket{
+    color: rgb(69, 202, 69);
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px;
+}
+.about .r-3 img{
+    border-radius: 10px;
+}
+/* About End */
+
+/* fun start */
+.fun{
+    background-color: rgb(225 54 54);
+    color: white;
+    text-align: center;
+}
+.fun .text{
+    padding: 50px;
+}
+.fun .font{
+    display: inline-block;
+    margin: 20px;
+}
+.fun .font span{
+    font-size: 45px;
+}
+/* fun end */
+
+/* Terminals start */
+.terminal .one{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    color: #0f0f6c;
+}
+.terminal .one .font p{
+    display: inline-block;
+    color: goldenrod;
+}
+.terminal .two{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    color: #0f0f6c;
+    border-left: 1px solid gray;
+}
+.terminal .two .font p{
+    display: inline-block;
+    color: goldenrod;
+}
+.terminal .card .name{
+    font-weight: bold;
+    color: #0f0f6c;
+}
+.terminal .card .name span{
+    color: rgb(69, 202, 69);
+}
+.terminal .card .accordion-body{
+    color: gray;
+}
+.terminal .card .accordion-item{
+    margin: 20px;
+    padding: 10px 0px;
+    border-left: 5px solid rgb(0, 187, 0);
+}
+.terminal img{
+    width: 50px;
+    margin: 5px;
+}
+/* Terminals End */
+
+/* Work Start */
+.port-text{
+    text-align: center;
+}
+.port-text h1{
+    color: #0f0f6c;
+}
+.port-text p{
+    color: gray;
+}
+.first-img img{
+    width: 350px;
+    padding: 5px;
+}
+.first-img{
+    display: inline-block;
+}
+.second-img img{
+    width: 350px;
+    padding: 5px;
+}
+.second-img{
+    display: inline-block;
+}
+.third-img img{
+    width: 350px;
+    padding: 5px;
+}
+.third-img{
+    display: inline-block;
+}
+
+.overlay {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+  }
+  
+  .overlay .img img {
+    vertical-align: middle;
+  }
+  
+  .overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+  }
+  
+  .overlay:hover::before {
+    background: rgb(225 54 54);
+    opacity: 0.7;
+  }
+/* Work End */
+
+/* Team start */
+.team .team-text{
+    text-align: center;
+}
+.team .team-text h1{
+    color: #0f0f6c;
+}
+.team .team-text p{
+    color: gray;
+}
+.team .team-img img{
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.team .team-img{
+    text-align: center;
+    color: gray;
+}
+.team .team-img h5{
+    color: #0f0f6c;
+}
+.team .team-img hr{
+      color: rgb(226, 9, 9);
+      width: 30%;
+}
+.team .team-img:hover{
+    border: 5px solid rgb(225 54 54);
+    border-radius: 15px;
+    transition: 1s;
+}
+.team .award{
+    background-color: rgb(225 54 54);
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.team .award button{
+    color: rgb(225 54 54);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.team .award .team-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(225 54 54);
+}
+.team .award .team-btn:hover{
+    background-color: white;
+    color: rgb(225 54 54);
+    transition: 1s;
+}
+/* Team End */
+
+/* Features Start */
+.features .features-text{
+    text-align: center;
+}
+.features .features-text h1{
+    color: #0f0f6c;
+}
+.features .features-text p{
+    color: gray;
+}
+.features .amazing{
+    text-align: center;
+    margin: 35px;
+}
+.features .amazing h5{
+    color: #0f0f6c;
+}
+.features .amazing p{
+    color: gray;
+}
+.features .amazing .tool{
+    text-align: left;
+    color: rgb(66, 194, 66);
+    font-size: 35px;
+}
+.features .amazing .gift{
+    text-align: left;
+    color: rgb(16 138 207);
+    font-size: 35px;
+}
+.features .amazing .user{
+    text-align: left;
+    color: rgb(106, 156, 197);
+    font-size: 35px;
+}
+.features .amazing .piggy{
+    text-align: left;
+    color: rgb(211, 73, 32);
+    font-size: 35px;
+}
+.features .amazing .bell{
+    text-align: left;
+    color: rgb(230, 171, 8);
+    font-size: 35px;
+}
+.features .amazing .comment{
+    text-align: left;
+    color: rgb(68, 194, 29);
+    font-size: 35px;
+}
+/* Features End */
+
+/* Pricing start */
+.pricing .price-text h1{
+    color: #0f0f6c;
+    font-size: 35px;
+}
+.pricing .price-text p{
+    color: gray;
+}
+.pricing .card-1{
+    height: 400px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.pricing .card-1 p{
+    color: gray;
+}
+.pricing .card-1 button{
+    margin: 15px;
+    border-radius: 30px;
+    width: 150px;
+    font-weight: bold;
+    padding: 10px;
+}
+.pricing .card-1 button:hover{
+    color: rgb(225 54 54);
+    transition: 1s;
+    background-color: white;
+    border: 1px solid rgb(225 54 54);
+    
+}
+.pricing .card-2{
+    height: 400px;
+    padding: 50px;
+    background-color: rgb(225 54 54);
+    border-radius: 20px;
+    color: white;
+}
+.pricing .card-2 button{
+    margin: 15px;
+    border-radius: 30px;
+    width: 150px;
+    color: rgb(225 54 54);
+    background-color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.pricing .card-2 button:hover{
+    color: white;
+    transition: 1s;
+    background-color: rgb(225 54 54);
+    border: 1px solid white;   
+}
+/* Pricing End */
+
+/* frequently Start */
+.frequently .heading{
+    text-align: center;
+    color: gray;
+}
+.frequently .heading h1{
+    color: #0f0f6c;
+}
+.frequently .left{
+    margin-top: 50px;
+    color: gray;
+}
+.frequently .left h6{
+    color: #0f0f6c;
+}
+.frequently .right{
+    margin-top: 50px;
+    color: gray;
+}
+.frequently .right h6{
+    color: #0f0f6c;
+}
+/* frequently End */
+
+/* contact Start */
+.contact{
+    text-align: center;
+    background-color: rgb(225 54 54);
+    color: white;
+    padding-top: 50px;
+}
+.contact .form .left{
+    display: inline-block;
+}
+.contact .form .left input{
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(225 54 54);
+    margin: 10px;
+    width: 400px;
+}
+.contact .form .left input::placeholder{
+    color: white;
+}
+.contact .form .right{
+    display: inline-block;
+}
+.contact .form .right input{
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(225 54 54);
+    margin: 10px;
+    width: 400px;
+}
+.contact .form .right input::placeholder{
+    color: white;
+}
+.contact .form .textarea textarea{
+    padding: 10px;
+    color: white;
+    width: 820px;
+    border: 2px solid white;
+    background-color: rgb(225 54 54);
+}
+.contact .form .textarea textarea input::placeholder{
+    color: white;
+}
+.contact .form button{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(225 54 54);
+    font-weight: bold;
+}
+/* Contact End */
